@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+button {
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin: 0px 5px;
+}
+
+button:disabled {
+  opacity: 0.3;
+}
+
+button.start-hack {
+  background: #0c0;
+  color: white;
+  border: none;
+}
+
+button.stop-hack {
+  background: #c00;
+  color: white;
+  border: none;
+}
+
+h1 {
+  display: inline;
+  font-size: 18px;
+  color: #ccc;
+  margin-right: 10px;
+}
+
+span {
+  color: #CDDC39;
+  font-style: italic;
+  padding-right: 10px;
+  font-size: 16px;
+}
